@@ -31,13 +31,13 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 
 ## 🛠️ Tech Stack
 
-| Tech             | Version             |
-|------------------|---------------------|
-| React            | ^18.2.0             |
-| Vite             | ^4.5.0              |
-| Tailwind CSS     | ^4.0                |
-| Styled Components| ^5.3.5              |
-| ESLint           | Custom config       |
+| Tech              | Version       |
+| ----------------- | ------------- |
+| React             | ^18.2.0       |
+| Vite              | ^4.5.0        |
+| Tailwind CSS      | ^4.0          |
+| Styled Components | ^5.3.5        |
+| ESLint            | Custom config |
 
 > 📄 Check `package.json` for full dependency details.
 
@@ -45,15 +45,16 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 
 ## ⚙️ Getting Started
 
-
 ## 🔧 Installation
 
+### 🔗 git clone
 
-### 🔗 git clone 
 ```bash
 https://github.com/jaimin-acharya/vatsal_acharya_architects.git
 ```
+
 cd vatsal_acharya_architects
+
 ```bash
 npm install
 ```
@@ -61,21 +62,25 @@ npm install
 ---
 
 ### 🧪 Run Locally
+
 ```bash
 npm run dev
 ```
+
 Visit: http://localhost:5173
 
 ---
 
 ### 📦 Build for Production
+
 ```bash
 npm run build
 ```
+
 ---
 
-
 ## 🗂️ Project Structure
+
 ```bash
 vatsal_acharya_architects/
 ├── public/             # Static assets
@@ -89,6 +94,7 @@ vatsal_acharya_architects/
 ├── package.json        # Project metadata
 └── README.md           # You are here
 ```
+
 ---
 
 ## 🤝 Contributing
@@ -106,25 +112,34 @@ vatsal_acharya_architects/
 - Or open an issue for suggestions and bugs.
 
 ---
+
 ## 📄 License
 
 - This project is licensed under the MIT License.
 - See the LICENSE file for more details.
 
 ---
+
 ## 📬 Contact
 
 - 👤 Jaimin Acharya
-- 📍 Palitana, Gujarat, India
-```bash
-📧 jaiminacharya9@gmail.com
-```
----
+- 📍 Ahemdabad - Palitana, Gujarat, India
 
-<p align="center">Feel free to reach out for collaborations, questions, or feedback.</p> 
-
-<p align="right">
-  <a href="https://vatsalacharyaarchitects.vercel.app/" target="_blank">
-    📲 Jaimin Acharya
+<p align="left">
+  <a href="https://github.com/jaimin-acharya">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/jaimin-acharya-40774b295/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:jaiminacharya9@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://vatsalacharyaarchitects.vercel.app/">
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Instagram" />
   </a>
 </p>
+
+---
+
+<p align="center">Feel free to reach out for collaborations, questions, or feedback.</p>
