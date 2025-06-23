@@ -111,7 +111,7 @@ Jaimin Acharya
 
 ```bash
 Feel free to reach out for collaborations, questions, or feedback.
-
-<p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
 ```
+<p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
+
 
