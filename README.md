@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img src="./public/logo.png" alt="Logo" width="70" height="60">
-  Vatsal Acharya Architects
+  <img src="./public/logo.png" alt="Logo" width="60" height="60"><br/>
+  <strong>Vatsal Acharya Architects</strong>
 </h1>
 
 <p align="center">
@@ -113,7 +113,7 @@ vatsal_acharya_architects/
 ---
 ## 📬 Contact
 
-- Jaimin Acharya
+- 👤 Jaimin Acharya
 - 📍 Palitana, Gujarat, India
 ```bash
 📧 jaiminacharya9@gmail.com
