@@ -1,0 +1,19 @@
+{
+  "name": "vatsal-architects-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Vatsal Acharya Architects website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
