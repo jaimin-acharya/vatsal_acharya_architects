@@ -1,4 +1,7 @@
-<h1 align="center"><img src="./public/logo.png"> Vatsal Acharya Architects</h1>
+<h1 align="center">
+  <img src="./public/logo.png" alt="Logo" width="50" height="50"><br/>
+  Vatsal Acharya Architects
+</h1>
 
 <p align="center">
   <a href="https://vatsalacharyaarchitects.vercel.app/" target="_blank">
@@ -28,7 +31,7 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 
 ## 🛠️ Tech Stack
 
-| Tech              | Version             |
+| Tech             | Version             |
 |------------------|---------------------|
 | React            | ^18.2.0             |
 | Vite             | ^4.5.x              |
@@ -44,30 +47,35 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 
 ### 🔧 Installation
 
+
+# git clone 
 ```bash
-git clone https://github.com/jaimin-acharya/vatsal_acharya_architects.git
+https://github.com/jaimin-acharya/vatsal_acharya_architects.git
+```
 cd vatsal_acharya_architects
+```bash
 npm install
 ```
 
 ---
 
-🧪 Run Locally
+## 🧪 Run Locally
 ```bash
 npm run dev
-Visit: http://localhost:5173
 ```
+Visit: http://localhost:5173
+
 ---
 
-📦 Build for Production
+## 📦 Build for Production
 ```bash
 npm run build
 ```
 ---
 
-```bash
-🗂️ Project Structure
 
+## 🗂️ Project Structure
+```bash
 vatsal_acharya_architects/
 ├── public/             # Static assets
 ├── src/
@@ -81,37 +89,39 @@ vatsal_acharya_architects/
 └── README.md           # You are here
 ```
 ---
-```bash
-🤝 Contributing
-Contributions are welcome!
-Feel free to:
 
-Fork the repo
+## 🤝 Contributing
 
-Make your changes
+- Contributions are welcome!
 
-Submit a PR
+- Feel free to:
 
-Or open an issue for suggestions and bugs.
-```
+- Fork the repo
+
+- Make your changes
+
+- Submit a PR
+
+- Or open an issue for suggestions and bugs.
+
 ---
+## 📄 License
 ```bash
-📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 ```
 ---
-```bash
-📬 Contact
+## 📬 Contact
+
 Jaimin Acharya
 📍 Palitana, Gujarat, India
+```bash
 📧 jaiminacharya9@gmail.com
 ```
 ---
 
-```bash
-Feel free to reach out for collaborations, questions, or feedback.
-```
+## Feel free to reach out for collaborations, questions, or feedback.
+
 <p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
 
 
