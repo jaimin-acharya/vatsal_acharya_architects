@@ -3,7 +3,7 @@ Here’s a polished and professional **README.md** tailored for your "vatsal\_ac
 ````markdown
 # Vatsal Acharya Architects
 
-✨ **Live Demo:** [vatsalacharyaarchitects‑jaimin‑acharyas‑projects.vercel.app](https://vatsalacharyaarchitects-jaimin-acharyas-projects.vercel.app)
+✨ **Live Demo:** [https://vatsalacharyaarchitects.vercel.app/](https://vatsalacharyaarchitects.vercel.app/)
 
 ---
 
@@ -55,7 +55,7 @@ Here’s a polished and professional **README.md** tailored for your "vatsal\_ac
    npm run dev
    ```
 
-   Then visit `http://localhost:3000/` (or as prompted).
+   Then visit `http://localhost:5173/` (or as prompted).
 
 4. **Build for production**
 
@@ -99,9 +99,8 @@ This project is open source under the **MIT License**. See the [LICENSE](LICENSE
 ## 📬 Contact
 
 **Jaimin Acharya**
-🏠 Gujarat, India
-📧 Email: **[jaimin.acharya@example.com](mailto:jaimin.acharya@example.com)**
-(Replace this with your actual email.)
+🏠 Palitana, Gujarat, India
+📧 Email: **[jaiminacharya9@gmail.com](mailto:jaiminacharya9@gmail.com)**
 
 Feel free to reach out if you’d like to ask questions, collaborate, or discuss how this site was built. I’d love to hear from you!
 
