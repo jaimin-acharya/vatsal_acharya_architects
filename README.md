@@ -45,10 +45,11 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 
 ## ⚙️ Getting Started
 
-### 🔧 Installation
+
+## 🔧 Installation
 
 
-## git clone 
+### 🔗 git clone 
 ```bash
 https://github.com/jaimin-acharya/vatsal_acharya_architects.git
 ```
@@ -59,7 +60,7 @@ npm install
 
 ---
 
-## 🧪 Run Locally
+### 🧪 Run Locally
 ```bash
 npm run dev
 ```
@@ -67,7 +68,7 @@ Visit: http://localhost:5173
 
 ---
 
-## 📦 Build for Production
+### 📦 Build for Production
 ```bash
 npm run build
 ```
