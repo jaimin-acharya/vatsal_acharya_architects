@@ -1,4 +1,4 @@
-<h1 align="center">🏛️ Vatsal Acharya Architects</h1>
+<h1 align="center"><img src="./public/logo.png"> Vatsal Acharya Architects</h1>
 
 <p align="center">
   <a href="https://vatsalacharyaarchitects.vercel.app/" target="_blank">
