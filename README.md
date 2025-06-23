@@ -130,25 +130,25 @@ vatsal_acharya_architects/
   <!-- GitHub -->
   <a href="https://github.com/jaimin-acharya" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" 
-    width="150px" />
+    width="150px" height="60px" />
   </a>
-  <br/>
+
 
   <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/jaimin-acharya-40774b295/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="150px" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="150px" height="60px"/>
   </a>
   <br/>
 
   <!-- Gmail -->
   <a href="mailto:jaiminacharya9@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" width="150px" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" width="150px" height="60px" />
   </a>
-  <br/>
+
 
   <!-- Instagram -->
   <a href="https://www.instagram.com/vatsal_acharya_architects/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" width="150px" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" width="150px" height="60px" />
   </a>
 
 </p>
