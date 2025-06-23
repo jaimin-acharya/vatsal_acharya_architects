@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { style } from 'framer-motion/client';
 
 
 
 const CarouselContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background: var(--bg-secondary);
   overflow: hidden;
   border-radius: 16px;
@@ -234,7 +235,7 @@ const CloseButton = styled.div`
   padding: 10px;
   background:#c9a959;
   border: 2px solid rgba(201, 169, 89, 0.18);
-  width: auto;
+  width: max-content;
   height: 42px;
   border-radius: 12px;
   display: flex;
@@ -287,7 +288,7 @@ const CloseButton = styled.div`
   @media (max-width: 768px) {
     top: 16px;
     right: 16px;
-    width: 40px;
+    width: max-content;
     height: 40px;
     svg {
       width: 20px;
@@ -309,7 +310,7 @@ const BlurredImage = styled.img`
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: blur(20px);
   transform: scale(1.1);
   opacity: ${props => props.$loaded ? 0 : 1};
@@ -322,9 +323,13 @@ const MainImage = styled.img`
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: ${({ $fullscreen }) => $fullscreen ? 'contain' : 'cover'};
   opacity: ${props => props.$loaded ? 1 : 0};
   transition: opacity 0.3s ease-in;
+
+  @media (max-width: 768px) {
+    object-fit: ${({ $fullscreen }) => $fullscreen ? 'contain' : 'cover'};
+  }
 `;
 
 export const ProjectCarousel = ({ images }) => {
@@ -420,7 +425,7 @@ export const ProjectCarousel = ({ images }) => {
     touchEndX.current = null;
   };
 
-  const renderImage = (src, alt) => {
+  const renderImage = (src, alt, fullscreen = false) => {
     const isLoaded = loadedImages[src];
     const lowResSrc = src.replace(/\.[^/.]+$/, '-low$&'); // Assuming you have low-res versions
 
@@ -435,6 +440,7 @@ export const ProjectCarousel = ({ images }) => {
           src={src}
           alt={alt}
           $loaded={isLoaded}
+          $fullscreen={fullscreen}
           onLoad={() => handleImageLoad(src)}
         />
       </ImageWrapper>
@@ -531,7 +537,8 @@ export const ProjectCarousel = ({ images }) => {
               <FaArrowLeftLong /> Return
 
             </CloseButton>
-            {renderImage(images[imageIndex], `Fullscreen view of slide ${imageIndex + 1}`)}
+            {renderImage(images[imageIndex], `Fullscreen view of slide ${imageIndex + 1}`, true)}
+
           </FullscreenModal>
         )}
       </AnimatePresence>
