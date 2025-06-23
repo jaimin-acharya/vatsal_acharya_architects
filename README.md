@@ -40,7 +40,7 @@ Here’s a polished and professional **README.md** tailored for your "vatsal\_ac
 1. **Clone this repo**  
    ```sh
    git clone https://github.com/jaimin-acharya/vatsal_acharya_architects.git
-````
+   ```
 
 2. **Install dependencies**
 
