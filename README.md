@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./public/logo.png" alt="Logo" width="50" height="50"><br/>
+  <img src="./public/logo.png" alt="Logo" width="70" height="60">
   Vatsal Acharya Architects
 </h1>
 
@@ -48,7 +48,7 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 ### 🔧 Installation
 
 
-# git clone 
+## git clone 
 ```bash
 https://github.com/jaimin-acharya/vatsal_acharya_architects.git
 ```
@@ -106,21 +106,21 @@ vatsal_acharya_architects/
 
 ---
 ## 📄 License
-```bash
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
-```
+
+- This project is licensed under the MIT License.
+- See the LICENSE file for more details.
+
 ---
 ## 📬 Contact
 
-Jaimin Acharya
-📍 Palitana, Gujarat, India
+- Jaimin Acharya
+- 📍 Palitana, Gujarat, India
 ```bash
 📧 jaiminacharya9@gmail.com
 ```
 ---
 
-## Feel free to reach out for collaborations, questions, or feedback.
+### Feel free to reach out for collaborations, questions, or feedback.
 
 <p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
 
