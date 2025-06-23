@@ -34,9 +34,9 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 | Tech             | Version             |
 |------------------|---------------------|
 | React            | ^18.2.0             |
-| Vite             | ^4.5.x              |
-| Tailwind CSS     | ^3.x                |
-| Styled Components| ^5.3.x              |
+| Vite             | ^4.5.0              |
+| Tailwind CSS     | ^4.0                |
+| Styled Components| ^5.3.5              |
 | ESLint           | Custom config       |
 
 > 📄 Check `package.json` for full dependency details.
@@ -121,8 +121,10 @@ vatsal_acharya_architects/
 ```
 ---
 
-### Feel free to reach out for collaborations, questions, or feedback.
+<p align="center">Feel free to reach out for collaborations, questions, or feedback.</p> 
 
-<p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
-
-
+<p align="right">
+  <a href="https://vatsalacharyaarchitects.vercel.app/" target="_blank">
+    📲 Jaimin Acharya
+  </a>
+</p>
