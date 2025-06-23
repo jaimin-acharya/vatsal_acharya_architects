@@ -24,12 +24,12 @@ Here’s a polished and professional **README.md** tailored for your "vatsal\_ac
 
 ## ⚙️ Tech Stack
 
-| Technology     | Version       |
-|---------------|---------------|
-| React         | ^18.x         |
-| Vite          | ^5.x          |
-| Tailwind CSS  | ^3.x          |
-| ESLint        | Configured via `eslint.config.js` |
+| Technology         |  Version                          |
+|--------------------|-----------------------------------|
+| React              | ^18.2                             |
+| Vite               | ^4.5                              |
+| Styled Components  | ^5.3                              |
+| ESLint             | Configured via `eslint.config.js` |
 
 *(See `package.json` for full dependency details.)*
 
