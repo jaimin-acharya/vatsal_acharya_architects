@@ -108,18 +108,3 @@ Feel free to reach out if you’d like to ask questions, collaborate, or discuss
 
 *Built with ❤ by Jaimin Acharya.*
 
-```
-
----
-
-### ✅ Next Steps
-
-- ✏️ Update the demo link if your Vercel URL changes.  
-- 🖼️ Add screenshots or embed a project gallery.  
-- 🎨 Expand the “Project Structure” with short descriptions per folder.  
-- 🔍 Improve SEO by adding meta tags in `index.html`.
-
----
-
-Let me know if you want help with badges (e.g. build status, license) or other enhancements!
-```
