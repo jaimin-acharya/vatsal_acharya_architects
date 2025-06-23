@@ -48,22 +48,26 @@ Built using ⚛️ **React**, ⚡ **Vite**, and 💨 **Tailwind CSS**, the site 
 git clone https://github.com/jaimin-acharya/vatsal_acharya_architects.git
 cd vatsal_acharya_architects
 npm install
+```
+
+---
+
 🧪 Run Locally
-bash
-Copy
-Edit
+```bash
 npm run dev
 Visit: http://localhost:5173
+```
+---
 
 📦 Build for Production
-bash
-Copy
-Edit
+```bash
 npm run build
+```
+---
+
+```bash
 🗂️ Project Structure
-csharp
-Copy
-Edit
+
 vatsal_acharya_architects/
 ├── public/             # Static assets
 ├── src/
@@ -75,6 +79,9 @@ vatsal_acharya_architects/
 ├── server.js           # Optional server logic
 ├── package.json        # Project metadata
 └── README.md           # You are here
+```
+---
+```bash
 🤝 Contributing
 Contributions are welcome!
 Feel free to:
@@ -86,16 +93,25 @@ Make your changes
 Submit a PR
 
 Or open an issue for suggestions and bugs.
-
+```
+---
+```bash
 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
-
+```
+---
+```bash
 📬 Contact
 Jaimin Acharya
 📍 Palitana, Gujarat, India
 📧 jaiminacharya9@gmail.com
+```
+---
 
+```bash
 Feel free to reach out for collaborations, questions, or feedback.
 
-<p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> ```
+<p align="center"><i>Built with ❤️ by Jaimin Acharya</i></p> 
+```
+
