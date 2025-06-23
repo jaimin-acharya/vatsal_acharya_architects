@@ -2,7 +2,8 @@ import { useState, useCallback, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
-import { FaArrowLeftLong } from "react-icons/fa6";
+import { IoIosArrowRoundBack } from "react-icons/io";
+
 import { style } from 'framer-motion/client';
 
 
@@ -230,27 +231,36 @@ const FullscreenImage = styled(motion.img)`
 
 const CloseButton = styled.div`
   position: absolute;
-  top: 32px;
-  left: 32px;
+      top: 0.7rem;
+      left: 0.7rem;
+      background: rgba(201, 168, 124, 0.9);
+      color: var(--bg-primary);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      backdrop-filter: blur(4px);
+text-transform: uppercase;
+
+  
+
   padding: 10px;
-  background:#c9a959;
+  
   border: 2px solid rgba(201, 169, 89, 0.18);
   width: max-content;
   height: 42px;
-  border-radius: 12px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
   opacity: 1;
-  gap: 15px;
+  gap: 5px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.10);
   backdrop-filter: blur(14px) saturate(1.2);
   -webkit-backdrop-filter: blur(14px) saturate(1.2);
-  color: #000;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
+  
+ cursor: pointer;
   transition: background 0.25s, box-shadow 0.25s, color 0.25s, transform 0.18s, border 0.25s;
 
   svg {
@@ -534,7 +544,7 @@ export const ProjectCarousel = ({ images }) => {
               onClick={() => setIsFullscreen(false)}
               aria-label="Close fullscreen"
             >
-              <FaArrowLeftLong /> Return
+              <IoIosArrowRoundBack /> Return
 
             </CloseButton>
             {renderImage(images[imageIndex], `Fullscreen view of slide ${imageIndex + 1}`, true)}
