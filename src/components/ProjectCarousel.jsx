@@ -284,16 +284,16 @@ text-transform: uppercase;
     }
   }
 
-  // &:active {
-  //   background: rgba(201, 169, 89, 0.32);
-  //   color: #fff;
-  //   border: 2.5px solid var(--accent, #c9a959);
-  //   transform: scale(0.97);
-  //   svg {
-  //     color: #fff;
-  //     filter: drop-shadow(0 1px 2px rgba(201,169,89,0.18));
-  //   }
-  // }
+  &:active {
+    background: rgba(201, 169, 89, 0.32);
+    color: #fff;
+    border: 2.5px solid var(--accent, #c9a959);
+    transform: scale(0.97);
+    svg {
+      color: #fff;
+      filter: drop-shadow(0 1px 2px rgba(201,169,89,0.18));
+    }
+  }
 
   @media (max-width: 768px) {
     top: 16px;

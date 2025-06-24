@@ -378,28 +378,40 @@ const ModalInfo = styled.div`
 
 const CloseButton = styled(motion.button)`
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  background: rgba(var(--bg-tertiary-rgb), 0.8);
+  top: 20px;
+  left: 20px;
+  background: rgb(201,169,89);
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--text-primary);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 50px;
+  height: 35px;
+  padding: 8px 12px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 1001;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 1.75rem;
-  line-height: 1;
+   line-height: 1.5;
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 1.75rem;
+  margin-bottom: 6px;
+
+}
 
   &::before {
     content: '';
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     inset: -1px;
     border-radius: 50%;
     padding: 1px;
@@ -409,26 +421,21 @@ const CloseButton = styled(motion.button)`
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
   }
 
-  &:hover {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--bg-primary);
-    transform: rotate(90deg);
-    box-shadow: 0 6px 16px rgba(201, 168, 124, 0.3);
-
-    &::before {
-      opacity: 1;
+  &:hover, &:focus {
+    background: rgba(201, 169, 89, 0.22);
+    color: #c9a959;
+    border: 2.5px solid var(--accent, #c9a959);
+    box-shadow: 0 12px 36px rgba(201,169,89,0.18), 0 4px 16px rgba(0,0,0,0.14);
+    outline: none;
+    svg {
+      color: #c9a959;
+      filter: drop-shadow(0 2px 6px rgba(201,169,89,0.22));
     }
   }
-
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(201, 168, 124, 0.3);
-  }
-
+  
   &:active {
     transform: scale(0.95) rotate(90deg);
   }
@@ -633,7 +640,7 @@ export const Projects = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                ×
+                <span>×</span>
               </CloseButton>
               <ProjectCarousel images={selectedProject.images} />
               <ModalInfo>
